@@ -52,17 +52,18 @@ const App = () => {
 
   const flattenCounterResults = (globalResults) => {
     console.log(globalResults)
-    // Flatten the array to combine all points for each driver (same id)
-    let resultFlatten = Object.values(
-      globalResults.reduce((res, { id, counter }) => {
-        res[id] = res[id] || { id, counter: [] };
-        res[id].counter = res[id].counter.concat(Array.isArray(counter) ? counter : [counter]);
-        return res;
-      }, {})
-    ).map(res => ({ ...res, counter: res.counter.reduce((a, b) => a + b, 0) }) // Sum all points in the [counter] for each driver
-    ).sort((a, b) => b.counter - a.counter); // Descending order ranking
-
-    return resultFlatten;
+    const resultsFlatten = [];
+    globalResults.forEach(globalResult => {
+      const { id, counter } = globalResult;
+      const index = resultsFlatten.findIndex(result => result.id === id);
+      if ( index === -1) {
+        resultsFlatten.push({ id, counter });
+      } else {
+        resultsFlatten[index].counter += counter;
+      }
+    });
+    
+    return resultsFlatten.sort((a, b) => b.counter - a.counter);
   }
 
   useEffect(() => {
