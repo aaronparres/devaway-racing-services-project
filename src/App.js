@@ -6,10 +6,24 @@ const App = () => {
   const { driversData } = data;
 
   const [drivers, setDrivers] = useState(driversData);
+  const [racesByDriver, setRacesByDriver] = useState([]);
 
   useEffect(() => {
-    console.log(drivers);
+    const filteredRacesByDriver = [];
+    drivers.forEach((driver) => {
+      filteredRacesByDriver.push({
+        driverId: driver._id,
+        races: [...driver.races]
+      });
+    });
+
+    setRacesByDriver([...filteredRacesByDriver])
   }, []);
+
+  useEffect(() => {
+    if (racesByDriver.length < 1 ) return;
+    console.log('racesByDriver', racesByDriver);
+  }, [racesByDriver])
 
   return (
     <Fragment>
@@ -18,8 +32,7 @@ const App = () => {
       Race 1 .... n
       Driver 1 ... n
     </Fragment>
-
-  );
+    );
 }
 
 export default App;
