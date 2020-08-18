@@ -13,15 +13,15 @@ const App = () => {
   useEffect(() => {
     const filteredRacesByDriver = [];
     drivers.forEach((driver) => {
+      const { _id, races } = driver;
       filteredRacesByDriver.push({
-        driverId: driver._id,
-        races: [...driver.races]
+        driverId: _id,
+        races: [...races]
       });
     });
-
     setRacesByDriver([...filteredRacesByDriver])
     console.log('racesByDriver', filteredRacesByDriver);
-  }, []);
+  }, []);  // like componentdidmount (on init)
 
   const timeParserIntoSeconds = (time) => {
     const timeParts = time.split(':');
@@ -34,9 +34,10 @@ const App = () => {
     if (racesByDriver && racesByDriver.length > 0) {
       for (let i = 0; i < racesByDriver[i].races.length; i++) {
         total.push(racesByDriver.map(driver => {
+          const { driverId, races } = driver;
           return ({
-            driverId: driver.driverId,
-            ...driver.races[i]
+            driverId: driverId,
+            ...races[i]
           })
         }));
         total[i].sort((a, b) => timeParserIntoSeconds(a.time) - timeParserIntoSeconds(b.time));
@@ -56,13 +57,13 @@ const App = () => {
     globalResults.forEach(globalResult => {
       const { id, counter } = globalResult;
       const index = resultsFlatten.findIndex(result => result.id === id);
-      if ( index === -1) {
+      if (index === -1) {
         resultsFlatten.push({ id, counter });
       } else {
         resultsFlatten[index].counter += counter;
       }
     });
-    
+
     return resultsFlatten.sort((a, b) => b.counter - a.counter);
   }
 
@@ -70,13 +71,14 @@ const App = () => {
     if (totalPositionsByRace.length < 1) return;
     let globalRankingCounters = [];
     if (totalPositionsByRace && totalPositionsByRace.length > 0) {
-      drivers.forEach((driver) => {
-        totalPositionsByRace.forEach((race) => {
-          race.forEach((position) => {
+      drivers.forEach(driver => {
+        totalPositionsByRace.forEach(race => {
+          race.forEach(position => {
             if (driver._id === position.driverId) {
+              const { driverId, pointsCounter } = position;
               globalRankingCounters.push({
-                id: position.driverId,
-                counter: position.pointsCounter
+                id: driverId,
+                counter: pointsCounter
               })
             }
           })
