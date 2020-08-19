@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import data from './backend/devaway-racing-services-export.json';
 
@@ -6,46 +6,37 @@ const App = () => {
   const { driversData } = data;
 
   const [drivers, setDrivers] = useState(driversData);
-  const [racesByDriver, setRacesByDriver] = useState([]);
   const [totalPositionsByRace, setTotalPositionsByRace] = useState([]);
   const [globalRanking, setGlobalRanking] = useState([]);
 
   useEffect(() => {
     if (drivers.length < 1) return;
-    const filteredRacesByDriver = [];
-    drivers.forEach((driver) => {
-      const { _id, races } = driver;
-      filteredRacesByDriver.push({
-        driverId: _id,
-        races: [...races]
-      });
-    });
-    setRacesByDriver([...filteredRacesByDriver])
-    console.log('racesByDriver', filteredRacesByDriver);
-  }, [drivers]);
-
-  useEffect(() => {
-    if (racesByDriver.length < 1) return;
+    console.log('drivers', drivers);
     const totalPositions = [];
-    if (racesByDriver && racesByDriver.length > 0) {
-      for (let i = 0; i < racesByDriver[0].races.length; i++) {
-        totalPositions.push(racesByDriver.map(driver => {
-          const { driverId, races } = driver;
-          return ({
-            driverId: driverId,
-            ...races[i]
-          })
+    if (drivers && drivers.length > 0) {
+      for (let i = 0; i < drivers[0].races.length; i++) {
+        totalPositions.push(drivers.map(driver => {
+          const { age, name, picture, team, _id, races } = driver;
+          return {
+            _id,
+            age,
+            name,
+            picture,
+            team,
+            race: races[i],
+          }
         }));
-        totalPositions[i].sort((a, b) => timeParserIntoSeconds(a.time) - timeParserIntoSeconds(b.time));
+        totalPositions[i].sort((a, b) => timeParserIntoSeconds(a.race.time) - timeParserIntoSeconds(b.race.time));
         totalPositions[i] = totalPositions[i].map((driver, index) => ({
           ...driver,
-          pointsCounter: 22 - index
+          pointsCounter: 22 - index,
+          positionInRace: index + 1,
         }));
       }
       setTotalPositionsByRace(totalPositions);
       console.log('totalPositionsByRace', totalPositions);
     }
-  }, [racesByDriver]);
+  }, [drivers]);
 
   useEffect(() => {
     if (totalPositionsByRace.length < 1) return;
@@ -54,10 +45,15 @@ const App = () => {
       drivers.forEach(driver => {
         totalPositionsByRace.forEach(race => {
           race.forEach(position => {
-            if (driver._id === position.driverId) {
-              const { driverId, pointsCounter } = position;
+            if (driver._id === position._id) {
+              const { pointsCounter } = position;
+              const { age, name, picture, team, _id } = driver;
               globalRankingCounters.push({
-                id: driverId,
+                _id,
+                age,
+                name,
+                picture,
+                team,
                 counter: pointsCounter
               })
             }
@@ -78,25 +74,28 @@ const App = () => {
   const flattenCounterResults = (globalResults) => {
     const resultsFlatten = [];
     globalResults.forEach(globalResult => {
-      const { id, counter } = globalResult;
-      const index = resultsFlatten.findIndex(result => result.id === id);
+      const { _id, counter } = globalResult;
+      const index = resultsFlatten.findIndex(result => result._id === _id);
       if (index === -1) {
-        resultsFlatten.push({ id, counter });
+        resultsFlatten.push({ ...globalResult, counter });
       } else {
         resultsFlatten[index].counter += counter;
       }
     });
 
-    return resultsFlatten.sort((a, b) => b.counter - a.counter);
+    return resultsFlatten.sort((a, b) => b.counter - a.counter).map((result, positionIndex) => ({
+      ...result,
+      globalPosition: positionIndex + 1,
+    })); // Sorting and adding globalPosition to the results
   }
 
   return (
-    <Fragment>
+    <>
       GLOBAL RANKING
-      {globalRanking && globalRanking.map((element, i) => (<div key={i}><p>{element.id}</p><p>{element.counter}</p></div>))}
+      {globalRanking && globalRanking.map((element, i) => (<div key={i}><p>{element.name}</p><p>{element.counter}</p></div>))}
       Race 1 .... n
       Driver 1 ... n
-    </Fragment>
+    </>
   );
 }
 
