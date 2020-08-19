@@ -19,10 +19,7 @@ code {
 .card-body {
 
   @mixin background($team) {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%), url('./assets/#{$team}.png');;
-  }
-
-  @mixin background-shared {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%), url('./assets/#{$team}.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,32 +28,26 @@ code {
 
   &__uxmox {
     @include background(uxmox);
-    @include background-shared;
   }
 
   &__confrenzy {
     @include background(confrenzy);
-    @include background-shared;
   }
 
   &__devaway {
     @include background(devaway);
-    @include background-shared;
   }
 
   &__euron {
     @include background(euron);
-    @include background-shared;
   }
 
   &__genesynk {
     @include background(genesynk);
-    @include background-shared;
   }
 
   &__vendblend {
     @include background(vendblend);
-    @include background-shared;
   }
 
 }
