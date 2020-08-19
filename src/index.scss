@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(243, 243, 243);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Open Sans',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,4 +14,49 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card-body {
+
+  @mixin background($team) {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%), url('./assets/#{$team}.png');;
+  }
+
+  @mixin background-shared {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: 14em;
+  }
+
+  &__uxmox {
+    @include background(uxmox);
+    @include background-shared;
+  }
+
+  &__confrenzy {
+    @include background(confrenzy);
+    @include background-shared;
+  }
+
+  &__devaway {
+    @include background(devaway);
+    @include background-shared;
+  }
+
+  &__euron {
+    @include background(euron);
+    @include background-shared;
+  }
+
+  &__genesynk {
+    @include background(genesynk);
+    @include background-shared;
+  }
+
+  &__vendblend {
+    @include background(vendblend);
+    @include background-shared;
+  }
+
 }

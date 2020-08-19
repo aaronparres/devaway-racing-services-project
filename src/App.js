@@ -54,7 +54,7 @@ const App = () => {
                 name,
                 picture,
                 team,
-                counter: pointsCounter
+                counter: pointsCounter,
               })
             }
           })
@@ -89,22 +89,24 @@ const App = () => {
     })); // Sorting and adding globalPosition to the results
   }
 
+
   return (
     <div className="container-fluid">
-      GLOBAL RANKING
+      <h1 style={{textAlign: "center"}}>GLOBAL RANKING</h1>
       {globalRanking && globalRanking.map((element, i) => (
         <div key={i} className="container">
-          <div className="card">
+          <div className="card" style={{marginBottom: "2em"}}>
             <div className="card-header">
-              {`${i + 1}º `}{element.name}
+              <h5 style={{marginBottom: 0}}>{element.globalPosition}º Position</h5>
             </div>
-            <div className="card-body">
+            <div className={`card-body ${element.team ? `card-body__${(element.team).toLowerCase()}` : ''}`}>
               <h5 className="card-title">{element.name}</h5>
-              <p className="card-text">{element.team}</p>
+              <h6 className="card-text">{element.counter} points</h6>
               <button className="btn btn-primary">See driver info</button>
             </div>
           </div>
-        </div>))}
+        </div>
+      ))}
       Race 1 .... n
       Driver 1 ... n
     </div>
