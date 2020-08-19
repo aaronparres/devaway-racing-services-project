@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import * as helpers from './shared/utility';
 
 import data from './backend/devaway-racing-services-export.json';
 
@@ -83,28 +84,11 @@ const App = () => {
         resultsFlatten[index].counter += counter;
       }
     });
-
+    // Sorting and adding globalPosition to the results
     return resultsFlatten.sort((a, b) => b.counter - a.counter).map((result, positionIndex) => ({
       ...result,
       globalPosition: positionIndex + 1,
-    })); // Sorting and adding globalPosition to the results
-  }
-
-  const numberSuffix = (position) => {
-    const j = position % 10;
-    const k = position % 100;
-
-    if (j === 1 && k !== 11) {
-      return position + "st";
-    }
-    if (j === 2 && k !== 12) {
-      return position + "nd";
-    }
-    if (j === 3 && k !== 13) {
-      return position + "rd";
-    }
-    
-    return position + "th";
+    }));
   }
 
   return (
@@ -114,7 +98,7 @@ const App = () => {
         <div key={i} className="container">
           <div className="card" style={{ marginBottom: "2em" }}>
             <div className="card-header">
-              <h5 style={{ marginBottom: 0 }}>{numberSuffix(element.globalPosition)} Position</h5>
+              <h5 style={{ marginBottom: 0 }}>{helpers.numberSuffix(element.globalPosition)} Position</h5>
             </div>
             <div className={`card-body ${element.team ? `card-body__${(element.team).toLowerCase()}` : ''}`}>
               <h5 className="card-title">{element.name}</h5>

@@ -19,7 +19,7 @@ code {
 .card-body {
 
   @mixin background($team) {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%), url('./assets/#{$team}.png');
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%), url('./assets/images/#{$team}.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
