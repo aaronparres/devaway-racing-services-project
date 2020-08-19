@@ -11,6 +11,7 @@ const App = () => {
   const [globalRanking, setGlobalRanking] = useState([]);
 
   useEffect(() => {
+    if (drivers.length < 1) return;
     const filteredRacesByDriver = [];
     drivers.forEach((driver) => {
       const { _id, races } = driver;
@@ -21,55 +22,34 @@ const App = () => {
     });
     setRacesByDriver([...filteredRacesByDriver])
     console.log('racesByDriver', filteredRacesByDriver);
-  }, []);  // like componentdidmount (on init)
-
-  const timeParserIntoSeconds = (time) => {
-    const timeParts = time.split(':');
-    return +timeParts[0] * 3600 + +timeParts[1] * 60 + +timeParts[2];
-  }
+  }, [drivers]);
 
   useEffect(() => {
     if (racesByDriver.length < 1) return;
-    let total = [];
+    const totalPositions = [];
     if (racesByDriver && racesByDriver.length > 0) {
-      for (let i = 0; i < racesByDriver[i].races.length; i++) {
-        total.push(racesByDriver.map(driver => {
+      for (let i = 0; i < racesByDriver[0].races.length; i++) {
+        totalPositions.push(racesByDriver.map(driver => {
           const { driverId, races } = driver;
           return ({
             driverId: driverId,
             ...races[i]
           })
         }));
-        total[i].sort((a, b) => timeParserIntoSeconds(a.time) - timeParserIntoSeconds(b.time));
-        total[i] = total[i].map((driver, index) => ({
+        totalPositions[i].sort((a, b) => timeParserIntoSeconds(a.time) - timeParserIntoSeconds(b.time));
+        totalPositions[i] = totalPositions[i].map((driver, index) => ({
           ...driver,
           pointsCounter: 22 - index
         }));
       }
-      setTotalPositionsByRace(total);
-      console.log('totalPositionsByRace', total);
+      setTotalPositionsByRace(totalPositions);
+      console.log('totalPositionsByRace', totalPositions);
     }
   }, [racesByDriver]);
 
-  const flattenCounterResults = (globalResults) => {
-    console.log(globalResults)
-    const resultsFlatten = [];
-    globalResults.forEach(globalResult => {
-      const { id, counter } = globalResult;
-      const index = resultsFlatten.findIndex(result => result.id === id);
-      if (index === -1) {
-        resultsFlatten.push({ id, counter });
-      } else {
-        resultsFlatten[index].counter += counter;
-      }
-    });
-
-    return resultsFlatten.sort((a, b) => b.counter - a.counter);
-  }
-
   useEffect(() => {
     if (totalPositionsByRace.length < 1) return;
-    let globalRankingCounters = [];
+    const globalRankingCounters = [];
     if (totalPositionsByRace && totalPositionsByRace.length > 0) {
       drivers.forEach(driver => {
         totalPositionsByRace.forEach(race => {
@@ -89,6 +69,26 @@ const App = () => {
       console.log('globalRanking', globalRanking);
     }
   }, [drivers, totalPositionsByRace]);
+
+  const timeParserIntoSeconds = (time) => {
+    const timeParts = time.split(':');
+    return +timeParts[0] * 3600 + +timeParts[1] * 60 + +timeParts[2];
+  }
+
+  const flattenCounterResults = (globalResults) => {
+    const resultsFlatten = [];
+    globalResults.forEach(globalResult => {
+      const { id, counter } = globalResult;
+      const index = resultsFlatten.findIndex(result => result.id === id);
+      if (index === -1) {
+        resultsFlatten.push({ id, counter });
+      } else {
+        resultsFlatten[index].counter += counter;
+      }
+    });
+
+    return resultsFlatten.sort((a, b) => b.counter - a.counter);
+  }
 
   return (
     <Fragment>
