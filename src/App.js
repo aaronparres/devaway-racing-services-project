@@ -90,12 +90,24 @@ const App = () => {
   }
 
   return (
-    <>
+    <div className="container-fluid">
       GLOBAL RANKING
-      {globalRanking && globalRanking.map((element, i) => (<div key={i}><p>{element.name}</p><p>{element.counter}</p></div>))}
+      {globalRanking && globalRanking.map((element, i) => (
+        <div key={i} className="container">
+          <div className="card">
+            <div className="card-header">
+              {`${i + 1}º `}{element.name}
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">{element.name}</h5>
+              <p className="card-text">{element.team}</p>
+              <button className="btn btn-primary">See driver info</button>
+            </div>
+          </div>
+        </div>))}
       Race 1 .... n
       Driver 1 ... n
-    </>
+    </div>
   );
 }
 
