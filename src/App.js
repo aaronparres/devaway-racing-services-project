@@ -5,6 +5,7 @@ import data from './backend/devaway-racing-services-export.json';
 
 import GlobalRankingList from './components/GlobalRankingList/GlobalRankingList';
 import Spinner from './components/UI/Spinner';
+import Footer from './components/UI/Footer';
 
 const LazyDriver = lazy(() => import('./components/Driver/Driver'));
 
@@ -103,8 +104,8 @@ const App = () => {
         <Route path="/driver/:id" component={() => (
           <Suspense fallback={<Spinner />}>
             <LazyDriver
-              driversList={drivers}
-              racesResults={totalPositionsByRace} />
+              racesResults={totalPositionsByRace}
+              driversRanking={globalRanking} />
           </Suspense>
         )} />
         <Route path="/global" component={() => (
@@ -113,7 +114,7 @@ const App = () => {
         )} />
         <Redirect to="/global" />
       </Switch>
-      FOOTER
+      <Footer />
       Race 1 .... n
     </Fragment>
   );
