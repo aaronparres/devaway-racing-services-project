@@ -1,5 +1,5 @@
 import React from 'react';
-import Emoji from '../components/UI/Emoji';
+import Emoji from '../components/UI/Emoji/Emoji';
 
 export const numberSuffix = (position) => {
   const remainderTen = position % 10;
@@ -20,9 +20,9 @@ export const numberSuffix = (position) => {
 
 export const setMedalEmoji = (position) => {
   switch (position) {
-    case 1: return <Emoji symbol="🥇" label="1st place medal" />;
-    case 2: return <Emoji symbol="🥈" label="2nd place medal" />;
-    case 3: return <Emoji symbol="🥉" label="3rd place medal" />;
+    case 1: return <Emoji symbol="🥇" label="1st-place-medal" />;
+    case 2: return <Emoji symbol="🥈" label="2nd-place-medal" />;
+    case 3: return <Emoji symbol="🥉" label="3rd-place-medal" />;
     default: return null;
   }
 }

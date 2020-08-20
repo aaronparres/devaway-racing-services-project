@@ -1,11 +1,11 @@
-import React, { useState, useEffect, Suspense, lazy, Fragment } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import data from './backend/devaway-racing-services-export.json';
 
 import GlobalRankingList from './components/GlobalRankingList/GlobalRankingList';
-import Spinner from './components/UI/Spinner';
-import Footer from './components/UI/Footer';
+import Layout from './components/Layout/Layout';
+import Spinner from './components/UI/Spinner/Spinner';
 
 const LazyDriver = lazy(() => import('./components/Driver/Driver'));
 
@@ -98,25 +98,25 @@ const App = () => {
   }
 
   return (
-    <Fragment>
-      HEADER "Layout??"
+    <Layout
+      racesResults={totalPositionsByRace}
+      driversRanking={globalRanking}>
       <Switch>
-        <Route path="/driver/:id" component={() => (
+        <Route path="/driver/:id" exact component={() => (
           <Suspense fallback={<Spinner />}>
             <LazyDriver
               racesResults={totalPositionsByRace}
               driversRanking={globalRanking} />
           </Suspense>
         )} />
-        <Route path="/global" component={() => (
+        <Route path="/global" exact component={() => (
           <GlobalRankingList
             driversRanking={globalRanking} />
         )} />
         <Redirect to="/global" />
       </Switch>
-      <Footer />
       Race 1 .... n
-    </Fragment>
+    </Layout>
   );
 }
 

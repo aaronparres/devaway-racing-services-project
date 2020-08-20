@@ -1,15 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { numberSuffix, setMedalEmoji } from '../../../shared/commonUtils';
 
 import './RankingCard.scss';
-
-import { Link } from 'react-router-dom'
 
 const RankingCard = ({ driverInfo }) => {
     const { globalPosition, team, name, counter, _id } = driverInfo;
 
     return (
-        <div className="container">
+        <section className="container">
             <div className="card margin__card">
                 <div className="card-header">
                     <h5 className="margin__title">
@@ -22,7 +21,7 @@ const RankingCard = ({ driverInfo }) => {
                     <Link to={`/driver/${_id}`} className="btn btn-warning margin__button">See driver info</Link>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
