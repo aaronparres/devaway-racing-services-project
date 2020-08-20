@@ -8,6 +8,7 @@ import Layout from './components/Layout/Layout';
 import Spinner from './components/UI/Spinner/Spinner';
 
 const LazyDriver = lazy(() => import('./components/Driver/Driver'));
+const LazyRace = lazy(() => import('./components/Race/Race'));
 
 const App = () => {
   const { driversData } = data;
@@ -107,6 +108,12 @@ const App = () => {
             <LazyDriver
               racesResults={totalPositionsByRace}
               driversRanking={globalRanking} />
+          </Suspense>
+        )} />
+        <Route path="/race/:num" exact component={() => (
+          <Suspense fallback={<Spinner />}>
+            <LazyRace
+              racesResults={totalPositionsByRace} />
           </Suspense>
         )} />
         <Route path="/global" exact component={() => (

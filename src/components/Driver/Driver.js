@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useHistory, Link } from 'react-router-dom';
 
 const Driver = ({ racesResults, driversRanking }) => {
     const { id } = useParams();
@@ -32,7 +32,7 @@ const Driver = ({ racesResults, driversRanking }) => {
                 Global position: {selectedDriver.globalPosition}
                 {driverRaces.map((race, i) => (
                     <div key={i}>
-                        <p>Race {i + 1} - pos: {race.positionInRace}</p>
+                        <p><Link to={`/race/${i + 1}`}>Race {i + 1} - pos: {race.positionInRace}</Link></p>
                     </div>
                 ))}
             </div>
