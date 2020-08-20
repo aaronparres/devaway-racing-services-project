@@ -13,11 +13,11 @@ const Carousel = ({ components }) => {
                     return prevIndex + 1;
                 }
             });
-        }, 4000);
+        }, 5000);
         return () => clearInterval(timeout);
     }, [componentIndex, components.length])
 
-    let component = components[componentIndex % components.length];
+    let component = components[componentIndex];
 
     return (
         <Fragment>
