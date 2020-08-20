@@ -1,7 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import { useParams, useHistory, Link } from 'react-router-dom';
 
-const Driver = ({ racesResults, driversRanking }) => {
+const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
     const { id } = useParams();
     const history = useHistory();
 
@@ -9,6 +10,10 @@ const Driver = ({ racesResults, driversRanking }) => {
     const [driverRaces, setDriverRaces] = useState([]);
 
     useEffect(() => {
+        fromCarouselId ? getDriverRacesInfo(fromCarouselId) : getDriverRacesInfo(id);
+    }, [fromCarouselId, id]);
+
+    const getDriverRacesInfo = (id) => {
         // Get driver info by id
         const driverInfo = driversRanking.filter(position => position._id === id);
         if (driverInfo.length < 1) history.push('/'); // Redirect when driver is not found with the provided id
@@ -22,8 +27,7 @@ const Driver = ({ racesResults, driversRanking }) => {
             })
         });
         setDriverRaces(driverRaces);
-
-    }, [racesResults, driversRanking, id, history]);
+    }
 
     return (
         <div className="container">
