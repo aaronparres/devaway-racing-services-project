@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react';
+import React, { useState, useEffect, Suspense, lazy, Fragment } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import data from './backend/devaway-racing-services-export.json';
@@ -11,6 +11,7 @@ const LazyDriver = lazy(() => import('./components/Driver/Driver'));
 const App = () => {
   const { driversData } = data;
 
+  // eslint-disable-next-line no-unused-vars
   const [drivers, setDrivers] = useState(driversData);
   const [totalPositionsByRace, setTotalPositionsByRace] = useState([]);
   const [globalRanking, setGlobalRanking] = useState([]);
@@ -96,17 +97,25 @@ const App = () => {
   }
 
   return (
-    <>
-      HEADER
+    <Fragment>
+      HEADER "Layout??"
       <Switch>
-        <Route path="/driver/:id" component={() => <Suspense fallback={<Spinner />}><LazyDriver /></Suspense>} />
-        <Route path="/" component={() => <GlobalRankingList driversRanking={globalRanking} />} />
-        <Redirect to="/" />
+        <Route path="/driver/:id" component={() => (
+          <Suspense fallback={<Spinner />}>
+            <LazyDriver
+              driversList={drivers}
+              racesResults={totalPositionsByRace} />
+          </Suspense>
+        )} />
+        <Route path="/global" component={() => (
+          <GlobalRankingList
+            driversRanking={globalRanking} />
+        )} />
+        <Redirect to="/global" />
       </Switch>
       FOOTER
       Race 1 .... n
-      Driver 1 ... n
-    </>
+    </Fragment>
   );
 }
 
