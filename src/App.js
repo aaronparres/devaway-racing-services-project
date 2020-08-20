@@ -1,8 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import * as helpers from './shared/utility';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import data from './backend/devaway-racing-services-export.json';
+
+import GlobalRankingList from './components/GlobalRankingList/GlobalRankingList';
+import Spinner from './components/UI/Spinner';
+
+const LazyDriver = lazy(() => import('./components/Driver/Driver'));
 
 const App = () => {
   const { driversData } = data;
@@ -92,25 +96,17 @@ const App = () => {
   }
 
   return (
-    <div className="container-fluid">
-      <h1 style={{ textAlign: "center" }}>GLOBAL RANKING</h1>
-      {globalRanking && globalRanking.map((element, i) => (
-        <div key={i} className="container">
-          <div className="card" style={{ marginBottom: "2em" }}>
-            <div className="card-header">
-              <h5 style={{ marginBottom: 0 }}>{helpers.numberSuffix(element.globalPosition)} Position</h5>
-            </div>
-            <div className={`card-body ${element.team ? `card-body__${(element.team).toLowerCase()}` : ''}`}>
-              <h5 className="card-title">{element.name}</h5>
-              <h6 className="card-text">{element.counter} points</h6>
-              <Link to={`/driver/${element._id}`} className="btn btn-warning">See driver info</Link>
-            </div>
-          </div>
-        </div>
-      ))}
+    <>
+      HEADER
+      <Switch>
+        <Route path="/driver/:id" component={() => <Suspense fallback={<Spinner />}><LazyDriver /></Suspense>} />
+        <Route path="/" component={() => <GlobalRankingList driversRanking={globalRanking} />} />
+        <Redirect to="/" />
+      </Switch>
+      FOOTER
       Race 1 .... n
       Driver 1 ... n
-    </div>
+    </>
   );
 }
 

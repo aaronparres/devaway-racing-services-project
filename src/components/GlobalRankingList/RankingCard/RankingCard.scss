@@ -1,0 +1,50 @@
+.card-body {
+
+  @mixin background($team) {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 35%),
+    url('../../../assets/images/#{$team}.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: 14em;
+  }
+
+  &__uxmox {
+    @include background(uxmox);
+  }
+
+  &__confrenzy {
+    @include background(confrenzy);
+  }
+
+  &__devaway {
+    @include background(devaway);
+  }
+
+  &__euron {
+    @include background(euron);
+  }
+
+  &__genesynk {
+    @include background(genesynk);
+  }
+
+  &__vendblend {
+    @include background(vendblend);
+  }
+
+}
+
+.margin {
+  &__card {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__button {
+    margin-top: 1rem;
+  }
+}
