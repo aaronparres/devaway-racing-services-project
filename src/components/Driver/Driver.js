@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 const Driver = ({ racesResults, driversRanking }) => {
     const { id } = useParams();
+    const history = useHistory();
 
     const [selectedDriver, setSelectedDriver] = useState({});
     const [driverRaces, setDriverRaces] = useState([]);
@@ -10,6 +11,7 @@ const Driver = ({ racesResults, driversRanking }) => {
     useEffect(() => {
         // Get driver info by id
         const driverInfo = driversRanking.filter(position => position._id === id);
+        if (driverInfo.length < 1) history.push('/'); // Redirect when driver is not found with the provided id
         setSelectedDriver(...driverInfo);
 
         // Get driver races info by id
@@ -21,7 +23,7 @@ const Driver = ({ racesResults, driversRanking }) => {
         });
         setDriverRaces(driverRaces);
 
-    }, [racesResults, driversRanking, id]);
+    }, [racesResults, driversRanking, id, history]);
 
     return (
         <div className="container">
