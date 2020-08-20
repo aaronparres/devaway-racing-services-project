@@ -4,7 +4,6 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 const Layout = ({ children, driversRanking, racesResults }) => {
-    console.log(driversRanking, racesResults);
     return (
         <Fragment>
             <Header />

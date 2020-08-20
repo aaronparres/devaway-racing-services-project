@@ -3,12 +3,13 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 
 import data from './backend/devaway-racing-services-export.json';
 
-import GlobalRankingList from './components/GlobalRankingList/GlobalRankingList';
 import Layout from './components/Layout/Layout';
 import Spinner from './components/UI/Spinner/Spinner';
 
 const LazyDriver = lazy(() => import('./components/Driver/Driver'));
 const LazyRace = lazy(() => import('./components/Race/Race'));
+const LazyGlobalRankingList = lazy(() => import('./components/GlobalRankingList/GlobalRankingList'));
+const LazyCarousel = lazy(() => import('./components/Carousel/Carousel'));
 
 const App = () => {
   const { driversData } = data;
@@ -17,6 +18,7 @@ const App = () => {
   const [drivers, setDrivers] = useState(driversData);
   const [totalPositionsByRace, setTotalPositionsByRace] = useState([]);
   const [globalRanking, setGlobalRanking] = useState([]);
+  const [componentsList, setComponentsList] = useState([]);
 
   useEffect(() => {
     if (drivers.length < 1) return;
@@ -75,6 +77,34 @@ const App = () => {
     }
   }, [drivers, totalPositionsByRace]);
 
+  useEffect(() => {
+    if (drivers.length < 1 || totalPositionsByRace.length < 1 || globalRanking.length < 1) return;
+    const components = [];
+    components.push((
+      <Suspense fallback={<Spinner />}>
+        <LazyGlobalRankingList driversRanking={globalRanking} />
+      </Suspense>
+    ));
+    totalPositionsByRace.forEach((race, i) => {
+      components.push((
+        <Suspense fallback={<Spinner />}>
+          <LazyRace racesResults={totalPositionsByRace} fromCarouselIndex={i + 1} />
+        </Suspense>
+      ));
+    })
+    globalRanking.forEach(driver => {
+      components.push((
+        <Suspense fallback={<Spinner />}>
+          <LazyDriver
+            racesResults={totalPositionsByRace}
+            driversRanking={globalRanking}
+            fromCarouselId={driver._id} />
+        </Suspense>
+      ))
+    });
+    setComponentsList(components);
+  }, [drivers, globalRanking, totalPositionsByRace]);
+
   const timeParserIntoSeconds = (time) => {
     const timeParts = time.split(':');
     return +timeParts[0] * 3600 + +timeParts[1] * 60 + +timeParts[2];
@@ -112,17 +142,21 @@ const App = () => {
         )} />
         <Route path="/race/:num" exact component={() => (
           <Suspense fallback={<Spinner />}>
-            <LazyRace
-              racesResults={totalPositionsByRace} />
+            <LazyRace racesResults={totalPositionsByRace} />
           </Suspense>
         )} />
         <Route path="/global" exact component={() => (
-          <GlobalRankingList
-            driversRanking={globalRanking} />
+          <Suspense fallback={<Spinner />}>
+            <LazyGlobalRankingList driversRanking={globalRanking} />
+          </Suspense>
         )} />
-        <Redirect to="/global" />
+        <Route path="/" exact component={() => (
+          <Suspense fallback={<Spinner />}>
+            <LazyCarousel components={componentsList} />
+          </Suspense>
+        )} />
+        <Redirect to="/" />
       </Switch>
-      Race 1 .... n
     </Layout>
   );
 }
