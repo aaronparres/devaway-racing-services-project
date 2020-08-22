@@ -3,11 +3,13 @@ import React, { Fragment } from 'react';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
-const Layout = ({ children, driversRanking, racesResults }) => {
+const Layout = ({ children }) => {
     return (
         <Fragment>
-            <Header />
-            {children}
+            <Header/>
+            <main style={{marginTop: "2rem"}}>
+                {children}
+            </main>
             <Footer />
         </Fragment>
     )

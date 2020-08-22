@@ -129,9 +129,7 @@ const App = () => {
   }
 
   return (
-    <Layout
-      racesResults={totalPositionsByRace}
-      driversRanking={globalRanking}>
+    <Layout>
       <Switch>
         <Route path="/driver/:id" exact component={() => (
           <Suspense fallback={<Spinner />}>
@@ -147,7 +145,9 @@ const App = () => {
         )} />
         <Route path="/global" exact component={() => (
           <Suspense fallback={<Spinner />}>
-            <LazyGlobalRankingList driversRanking={globalRanking} />
+            <LazyGlobalRankingList 
+              driversRanking={globalRanking}
+              races={totalPositionsByRace} />
           </Suspense>
         )} />
         <Route path="/" exact component={() => (
