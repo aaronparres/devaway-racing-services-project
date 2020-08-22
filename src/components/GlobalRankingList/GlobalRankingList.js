@@ -9,7 +9,7 @@ const GlobalRankingList = ({ driversRanking, races }) => {
     window.scrollTo(0, 0);
     return (
         <div className="container-fluid">
-            <h1 className="center-text">GLOBAL RANKING</h1>
+            <h1 className="global-center-text">GLOBAL RANKING</h1>
             {races &&
                 <div className="container">
                     <div className="dropdown">

@@ -25,7 +25,7 @@ const App = () => {
     console.log('drivers', drivers);
     const totalPositions = [];
     if (drivers && drivers.length > 0) {
-      for (let i = 0; i < drivers[0].races.length; i++) {
+     drivers[0].races.forEach((race, i) => {
         totalPositions.push(drivers.map(driver => {
           const { age, name, picture, team, _id, races } = driver;
           return {
@@ -43,7 +43,7 @@ const App = () => {
           pointsCounter: 22 - index,
           positionInRace: index + 1,
         }));
-      }
+      });
       setTotalPositionsByRace(totalPositions);
       console.log('totalPositionsByRace', totalPositions);
     }

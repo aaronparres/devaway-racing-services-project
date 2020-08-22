@@ -27,7 +27,7 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
     window.scrollTo(0, 0);
     return (
         <div className="container-fluid">
-            <h1 className="center-text">RACE {!fromCarouselIndex ? num : fromCarouselIndex}</h1>
+            <h1 className="race-center-text">RACE {!fromCarouselIndex ? num : fromCarouselIndex}</h1>
             {raceInfo && raceInfo.map((driver, i) => (
                 <p key={i}><Link to={`/driver/${driver._id}`}>{driver.name}</Link></p>
             ))}
