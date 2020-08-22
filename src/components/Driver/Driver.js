@@ -28,7 +28,7 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
         });
         setDriverRaces(driverRaces);
     }
-
+    window.scrollTo(0, 0);
     return (
         <div className="container">
             <div className="card">

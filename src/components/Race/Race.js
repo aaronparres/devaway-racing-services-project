@@ -24,7 +24,7 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
             history.push('/');
         }
     }
-
+    window.scrollTo(0, 0);
     return (
         <div className="container-fluid">
             <h1 className="center-text">RACE {!fromCarouselIndex ? num : fromCarouselIndex}</h1>

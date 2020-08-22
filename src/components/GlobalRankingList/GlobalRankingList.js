@@ -6,6 +6,7 @@ import RankingCard from './RankingCard/RankingCard';
 import { Link } from 'react-router-dom';
 
 const GlobalRankingList = ({ driversRanking, races }) => {
+    window.scrollTo(0, 0);
     return (
         <div className="container-fluid">
             <h1 className="center-text">GLOBAL RANKING</h1>
