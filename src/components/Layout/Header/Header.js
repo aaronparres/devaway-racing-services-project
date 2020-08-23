@@ -6,7 +6,7 @@ import Logo from '../../UI/Logo/Logo';
 import NavButton from './NavButton/NavButton';
 import { Link } from 'react-router-dom';
 
-const Header = ({drivers, races}) => {
+const Header = () => {
     return (
         <header className="toolbar">
             <div className="toolbar-logo">
