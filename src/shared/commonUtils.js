@@ -26,3 +26,15 @@ export const setMedalEmoji = (position) => {
     default: return null;
   }
 }
+
+export const getColorTeam = (team) => {
+  switch (team) {
+      case 'UXMOX': return 'dodgerBlue';
+      case 'GENESYNK': return 'green';
+      case 'CONFRENZY': return 'orange';
+      case 'EURON': return 'hotPink';
+      case 'VENDBLEND': return 'gray';
+      case 'DEVAWAY': return 'darkSalmon';
+      default: return 'black';
+  }
+} 

@@ -1,4 +1,47 @@
-.race-center-text {
-    text-align: center;
-    font-weight: bold;
+.container {
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    .race-center-text {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+}
+
+.list-group {
+    a.clickable {
+        text-decoration: none;
+        color: rgb(238, 72, 72);
+    }
+
+    .list-group-item {
+        background-color: #f9f9f9;
+        border: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+        &:hover {
+            background-color: #c0bebe;
+        }
+
+        .d-flex {
+            align-items: center;
+
+            p {
+                margin-bottom: 0;
+
+                &.item-black {
+                    color: black;
+                }
+            }
+
+            @media (max-width: 575px) {
+                & {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
 }
