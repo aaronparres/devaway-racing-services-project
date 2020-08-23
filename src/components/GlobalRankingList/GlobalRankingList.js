@@ -42,6 +42,9 @@ RankingCard.propTypes = {
             team: PropTypes.string.isRequired,
         })
     ),
+    races: PropTypes.arrayOf(
+        PropTypes.arrayOf(PropTypes.object)
+    ),
 }
 
 export default GlobalRankingList;
