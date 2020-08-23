@@ -6,6 +6,10 @@
         height: 80%;
         margin-top: 0.2rem;
         margin-left: 0;
+
+        &:hover {
+            filter: sepia(100%) saturate(700%);
+        }
     }
 
     @media (min-width: 992px) {
@@ -13,9 +17,6 @@
             height: 95%;
             margin-top: 0;
             margin-left: 1.1rem;
-            &:hover {
-                filter: sepia(100%) saturate(700%);
-            }
         }
     }
 }
