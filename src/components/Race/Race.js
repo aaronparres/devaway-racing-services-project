@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { useParams, useHistory, Link } from 'react-router-dom';
 import { numberSuffix, setMedalEmoji, getColorTeam } from '../../shared/commonUtils';
@@ -12,11 +11,7 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
 
     const [raceInfo, setRaceInfo] = useState([]);
 
-    useEffect(() => {
-        fromCarouselIndex ? getRaceInfo(fromCarouselIndex) : getRaceInfo(raceIndex);
-    }, [fromCarouselIndex, raceIndex]);
-
-    const getRaceInfo = (filteringIndex) => {
+    const getRaceInfo = useCallback((filteringIndex) => {
         // To avoid anything that is not a number
         if (isNaN(filteringIndex)) history.push('/');
         // Check if the number is inside the races[] length
@@ -25,7 +20,12 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
         } else {
             history.push('/');
         }
-    };
+    }, [history, racesResults]);
+
+    useEffect(() => {
+        fromCarouselIndex ? getRaceInfo(fromCarouselIndex) : getRaceInfo(raceIndex);
+    }, [fromCarouselIndex, getRaceInfo, raceIndex]);
+
 
     window.scrollTo(0, 0);
     return (
