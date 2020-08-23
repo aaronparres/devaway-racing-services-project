@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 import { numberSuffix, setMedalEmoji } from '../../../shared/commonUtils';
 
@@ -23,6 +24,18 @@ const RankingCard = ({ driverInfo }) => {
             </div>
         </section>
     )
+}
+
+RankingCard.propTypes = {
+    driverInfo: PropTypes.shape({
+        _id: PropTypes.string.isRequired,
+        age: PropTypes.number.isRequired,
+        counter: PropTypes.number.isRequired,
+        globalPosition: PropTypes.number.isRequired,
+        name: PropTypes.string.isRequired,
+        picture: PropTypes.string.isRequired,
+        team: PropTypes.string.isRequired,
+    }),
 }
 
 export default RankingCard;

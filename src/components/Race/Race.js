@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { useParams, useHistory, Link } from 'react-router-dom';
 
 import './Race.scss';
@@ -23,7 +24,8 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
         } else {
             history.push('/');
         }
-    }
+    };
+
     window.scrollTo(0, 0);
     return (
         <div className="container-fluid">
@@ -33,6 +35,27 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
             ))}
         </div>
     )
+}
+
+Race.propTypes = {
+    racesResults: PropTypes.arrayOf(
+        PropTypes.arrayOf(
+            PropTypes.shape({
+                _id: PropTypes.string.isRequired,
+                age: PropTypes.number.isRequired,
+                pointsCounter: PropTypes.number.isRequired,
+                positionInRace: PropTypes.number.isRequired,
+                name: PropTypes.string.isRequired,
+                picture: PropTypes.string.isRequired,
+                team: PropTypes.string.isRequired,
+                race: PropTypes.shape({
+                    name: PropTypes.string.isRequired,
+                    time: PropTypes.string.isRequired,
+                })
+            })
+        )
+    ).isRequired,
+    fromCarouselIndex: PropTypes.number,
 }
 
 export default Race;

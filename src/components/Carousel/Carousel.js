@@ -1,4 +1,5 @@
 import React, { useEffect, useState, Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 const Carousel = ({ components }) => {
 
@@ -24,6 +25,10 @@ const Carousel = ({ components }) => {
             {component}
         </Fragment>
     )
+}
+
+Carousel.prototypes = {
+    components: PropTypes.arrayOf(PropTypes.element).isRequired,
 }
 
 export default Carousel;
