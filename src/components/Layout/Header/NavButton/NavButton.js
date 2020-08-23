@@ -7,7 +7,7 @@ const NavButton = () => {
     return (
         <ul className="option">
             <li className="option-link">
-                <NavLink to="/global">Global Ranking</NavLink>
+                <NavLink to="/global" activeClassName="option-active">Global Ranking</NavLink>
             </li>
         </ul>
     );
