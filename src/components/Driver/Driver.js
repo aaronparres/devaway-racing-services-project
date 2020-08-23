@@ -1,5 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import { useParams, useHistory, Link } from 'react-router-dom';
 
 const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
@@ -9,11 +9,7 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
     const [selectedDriver, setSelectedDriver] = useState({});
     const [driverRaces, setDriverRaces] = useState([]);
 
-    useEffect(() => {
-        fromCarouselId ? getDriverRacesInfo(fromCarouselId) : getDriverRacesInfo(id);
-    }, [fromCarouselId, id]);
-
-    const getDriverRacesInfo = (filteringId) => {
+    const getDriverRacesInfo = useCallback((filteringId) => {
         // Get driver info by id
         const driverInfo = driversRanking.filter(position => position._id === filteringId);
         if (driverInfo.length < 1) history.push('/'); // Redirect when driver is not found with the provided id
@@ -27,7 +23,11 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
             })
         });
         setDriverRaces(driverRacesInfo);
-    }
+    }, [driversRanking, history, racesResults]);
+
+    useEffect(() => {
+        fromCarouselId ? getDriverRacesInfo(fromCarouselId) : getDriverRacesInfo(id);
+    }, [fromCarouselId, getDriverRacesInfo, id]);
 
     window.scrollTo(0, 0);
 
@@ -46,6 +46,38 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
             </div>
         </div>
     )
+}
+
+Driver.propTypes = {
+    driversRanking: PropTypes.arrayOf(
+        PropTypes.shape({
+            _id: PropTypes.string.isRequired,
+            age: PropTypes.number.isRequired,
+            counter: PropTypes.number.isRequired,
+            globalPosition: PropTypes.number.isRequired,
+            name: PropTypes.string.isRequired,
+            picture: PropTypes.string.isRequired,
+            team: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+    racesResults: PropTypes.arrayOf(
+        PropTypes.arrayOf(
+            PropTypes.shape({
+                _id: PropTypes.string.isRequired,
+                age: PropTypes.number.isRequired,
+                pointsCounter: PropTypes.number.isRequired,
+                positionInRace: PropTypes.number.isRequired,
+                name: PropTypes.string.isRequired,
+                picture: PropTypes.string.isRequired,
+                team: PropTypes.string.isRequired,
+                race: PropTypes.shape({
+                    name: PropTypes.string.isRequired,
+                    time: PropTypes.string.isRequired,
+                })
+            })
+        )
+    ).isRequired,
+    fromCarouselId: PropTypes.string,
 }
 
 export default Driver;
