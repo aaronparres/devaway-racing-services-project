@@ -25,24 +25,26 @@ const App = () => {
     console.log('drivers', drivers);
     const totalPositions = [];
     if (drivers && drivers.length > 0) {
-     drivers[0].races.forEach((race, i) => {
-        totalPositions.push(drivers.map(driver => {
-          const { age, name, picture, team, _id, races } = driver;
-          return {
-            _id,
-            age,
-            name,
-            picture,
-            team,
-            race: races[i],
-          }
-        }));
-        totalPositions[i].sort((a, b) => timeParserIntoSeconds(a.race.time) - timeParserIntoSeconds(b.race.time));
-        totalPositions[i] = totalPositions[i].map((driver, index) => ({
-          ...driver,
-          pointsCounter: 22 - index,
-          positionInRace: index + 1,
-        }));
+      drivers[0].races.forEach((race, i) => {
+        totalPositions.push(
+          drivers.map(driver => {
+            const { age, name, picture, team, _id, races } = driver;
+            return {
+              _id,
+              age,
+              name,
+              picture,
+              team,
+              race: races[i],
+            }
+          }));
+        totalPositions[i] = totalPositions[i]
+          .sort((a, b) => timeParserIntoSeconds(a.race.time) - timeParserIntoSeconds(b.race.time))
+          .map((driver, index) => ({
+            ...driver,
+            pointsCounter: 22 - index,
+            positionInRace: index + 1,
+          }));
       });
       setTotalPositionsByRace(totalPositions);
       console.log('totalPositionsByRace', totalPositions);
@@ -116,7 +118,10 @@ const App = () => {
       const { _id, counter } = globalResult;
       const index = resultsFlatten.findIndex(result => result._id === _id);
       if (index === -1) {
-        resultsFlatten.push({ ...globalResult, counter });
+        resultsFlatten.push({
+          ...globalResult,
+          counter,
+        });
       } else {
         resultsFlatten[index].counter += counter;
       }
@@ -138,14 +143,14 @@ const App = () => {
               driversRanking={globalRanking} />
           </Suspense>
         )} />
-        <Route path="/race/:num" exact component={() => (
+        <Route path="/race/:raceIndex" exact component={() => (
           <Suspense fallback={<Spinner />}>
             <LazyRace racesResults={totalPositionsByRace} />
           </Suspense>
         )} />
         <Route path="/global" exact component={() => (
           <Suspense fallback={<Spinner />}>
-            <LazyGlobalRankingList 
+            <LazyGlobalRankingList
               driversRanking={globalRanking}
               races={totalPositionsByRace} />
           </Suspense>

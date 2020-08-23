@@ -13,27 +13,31 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
         fromCarouselId ? getDriverRacesInfo(fromCarouselId) : getDriverRacesInfo(id);
     }, [fromCarouselId, id]);
 
-    const getDriverRacesInfo = (id) => {
+    const getDriverRacesInfo = (filteringId) => {
         // Get driver info by id
-        const driverInfo = driversRanking.filter(position => position._id === id);
+        const driverInfo = driversRanking.filter(position => position._id === filteringId);
         if (driverInfo.length < 1) history.push('/'); // Redirect when driver is not found with the provided id
         setSelectedDriver(...driverInfo);
 
         // Get driver races info by id
-        const driverRaces = [];
+        const driverRacesInfo = [];
         racesResults.forEach(race => {
             race.forEach(position => {
-                if (position._id === id) driverRaces.push(position);
+                if (position._id === filteringId) driverRacesInfo.push(position);
             })
         });
-        setDriverRaces(driverRaces);
+        setDriverRaces(driverRacesInfo);
     }
+
     window.scrollTo(0, 0);
+
+    const { name, globalPosition } = selectedDriver;
+
     return (
         <div className="container">
             <div className="card">
-                {selectedDriver.name}
-                Global position: {selectedDriver.globalPosition}
+                {name}
+                Global position: {globalPosition}
                 {driverRaces.map((race, i) => (
                     <div key={i}>
                         <p><Link to={`/race/${i + 1}`}>Race {i + 1} - pos: {race.positionInRace}</Link></p>
