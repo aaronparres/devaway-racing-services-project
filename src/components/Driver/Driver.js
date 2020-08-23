@@ -1,6 +1,9 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { useParams, useHistory, Link } from 'react-router-dom';
+import { numberSuffix, setMedalEmoji } from '../../shared/commonUtils';
+
+import './Driver.scss';
 
 const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
     const { id } = useParams();
@@ -31,18 +34,42 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
 
     window.scrollTo(0, 0);
 
-    const { name, globalPosition } = selectedDriver;
+    const { name, globalPosition, age, counter, picture, team } = selectedDriver;
 
     return (
         <div className="container">
+            <div className={`team-banner ${team && `team-banner__${team.toLowerCase()}`}`}></div>
+            <div className="top-content">
+                <img className="img-fluid" src={picture} alt="driver-img" />
+                <h2>{name} <sup>({age} yo)</sup></h2>
+                <div className="info d-flex">
+                    <h4>Global position: <span className="item-red">{numberSuffix(globalPosition)}</span>{setMedalEmoji(globalPosition)}</h4>
+                    <h4>Total points: <span className="item-red">{counter}</span></h4>
+                </div>
+            </div>
             <div className="card">
-                {name}
-                Global position: {globalPosition}
-                {driverRaces.map((race, i) => (
-                    <div key={i}>
-                        <p><Link to={`/race/${i + 1}`}>Race {i + 1} - pos: {race.positionInRace}</Link></p>
-                    </div>
-                ))}
+                <ul className="list-group list-group-flush">
+                    {driverRaces &&
+                        driverRaces.map((infoRace, i) => {
+                            const { positionInRace, race } = infoRace;
+                            return (
+                                <Link className="clickable" key={i} to={`/race/${i + 1}`}>
+                                    <li className="list-group-item">
+                                        <div className="d-flex">
+                                            <p className="col-sm-4">Race {i + 1}</p>
+                                            <p className="col-sm-4" style={{ textAlign: "center" }}>
+                                                Position: <span className="item-red">{numberSuffix(positionInRace)}</span>
+                                            </p>
+                                            <p className="col-sm-4" style={{ textAlign: "right" }}>
+                                                Time - <span className="item-red">{race.time}</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </Link>
+                            );
+                        })
+                    }
+                </ul>
             </div>
         </div>
     )

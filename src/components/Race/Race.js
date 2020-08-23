@@ -46,7 +46,9 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
                                                 <p className="item-black">{name}</p>
                                                 <p className="item-black">{pointsCounter} points</p>
                                             </div>
-                                            <p className="item-black col-sm-4">Team: &nbsp;<span style={{ color: `${colorTeam}` }}>{team}</span></p>
+                                            <p className="item-black col-sm-4">
+                                                Team: &nbsp;<span style={{ color: `${colorTeam}` }}>{team}</span>
+                                            </p>
                                             <p className="item-black col-sm-4" style={{ textAlign: "right" }}>
                                                 Time - &nbsp;<span style={{ color: "rgb(238, 72, 72)" }}>{race.time}</span>
                                             </p>
