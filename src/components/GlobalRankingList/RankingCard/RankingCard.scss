@@ -1,3 +1,17 @@
+.margin {
+  &__card {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__button {
+    margin-top: 1rem;
+  }
+}
+
 .card-body {
 
   @mixin background($team) {
@@ -7,6 +21,33 @@
     background-position: center;
     background-size: cover;
     background-position-x: 14em;
+
+    @media (max-width: 1199px) {
+      & {
+        background-position-x: 12em;
+      }
+    }
+
+    @media (max-width: 991px) {
+      & {
+        background-position-x: 10em;
+      }
+    }
+
+    @media (max-width: 767px) {
+      & {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 150%),
+        url('../../../assets/images/#{$team}.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: 0;
+
+        h6 {
+          font-weight: 600;
+        }
+      }
+    }
   }
 
   &__uxmox {
@@ -33,22 +74,11 @@
     @include background(vendblend);
   }
 
-}
-
-.margin {
-  &__card {
-    margin-bottom: 2rem;
+  h6 {
+    color: rgb(238, 72, 72);
   }
 
-  &__title {
-    margin-bottom: 0;
+  .title-size {
+    font-size: 2.5rem;
   }
-
-  &__button {
-    margin-top: 1rem;
-  }
-}
-
-.title-size {
-  font-size: 2.5rem;
 }
