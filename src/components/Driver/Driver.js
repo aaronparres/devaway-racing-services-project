@@ -40,7 +40,7 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
         <div className="container">
             <div className={`team-banner ${team && `team-banner__${team.toLowerCase()}`}`}></div>
             <div className="top-content">
-                <img className="img-fluid" src={picture} alt="driver-img" />
+                <img className="img-fluid img-thumbnail" src={picture} alt="driver-img" />
                 <h2>{name} <sup>({age} yo)</sup></h2>
                 <div className="info d-flex">
                     <h4>Global position: <span className="item-red">{numberSuffix(globalPosition)}</span>{setMedalEmoji(globalPosition)}</h4>

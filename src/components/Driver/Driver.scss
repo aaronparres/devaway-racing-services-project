@@ -67,6 +67,12 @@
         width: 14rem;
         margin-top: -5rem;
         margin-left: 3rem;
+        
+        &.img-thumbnail {
+            background-color: rgb(238, 72, 72);
+            border: 0;
+            padding: 0.5rem;
+        }
     }
 
     .info {
