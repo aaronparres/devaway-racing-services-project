@@ -22,7 +22,6 @@ const App = () => {
 
   useEffect(() => {
     if (drivers.length < 1) return;
-    console.log('drivers', drivers);
     const totalPositions = [];
     if (drivers && drivers.length > 0) {
       drivers[0].races.forEach((race, i) => {
@@ -47,7 +46,6 @@ const App = () => {
           }));
       });
       setTotalPositionsByRace(totalPositions);
-      console.log('totalPositionsByRace', totalPositions);
     }
   }, [drivers]);
 
@@ -75,7 +73,6 @@ const App = () => {
       })
       const globalRanking = flattenCounterResults(globalRankingCounters);
       setGlobalRanking(globalRanking);
-      console.log('globalRanking', globalRanking);
     }
   }, [drivers, totalPositionsByRace]);
 
