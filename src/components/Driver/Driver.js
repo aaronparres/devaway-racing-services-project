@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { useParams, useHistory, Link } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { numberSuffix, setMedalEmoji } from '../../shared/commonUtils';
 
 import './Driver.scss';
+
+import DriverPosition from './DriverPosition/DriverPosition';
 
 const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
     const { id } = useParams();
@@ -57,19 +59,7 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
                         driverRaces.map((infoRace, i) => {
                             const { positionInRace, race } = infoRace;
                             return (
-                                <Link className="clickable" key={i} to={`/race/${i + 1}`}>
-                                    <li className="list-group-item">
-                                        <div className="d-flex">
-                                            <p className="col-sm-4">Race {i + 1}</p>
-                                            <p className="col-sm-4" style={{ textAlign: "center" }}>
-                                                Position: <span className="item-red">{numberSuffix(positionInRace)}</span>
-                                            </p>
-                                            <p className="col-sm-4" style={{ textAlign: "right" }}>
-                                                Time - <span className="item-red">{race.time}</span>
-                                            </p>
-                                        </div>
-                                    </li>
-                                </Link>
+                                <DriverPosition key={i} positionInRace={positionInRace} race={race} index={i} />
                             );
                         })
                     }
@@ -82,7 +72,7 @@ const Driver = ({ racesResults, driversRanking, fromCarouselId }) => {
 Driver.propTypes = {
     driversRanking: PropTypes.arrayOf(
         PropTypes.shape({
-            _id: PropTypes.string.isRequired,
+            _id: PropTypes.string,
             age: PropTypes.number.isRequired,
             counter: PropTypes.number.isRequired,
             globalPosition: PropTypes.number.isRequired,
@@ -94,17 +84,17 @@ Driver.propTypes = {
     racesResults: PropTypes.arrayOf(
         PropTypes.arrayOf(
             PropTypes.shape({
-                _id: PropTypes.string.isRequired,
-                age: PropTypes.number.isRequired,
-                pointsCounter: PropTypes.number.isRequired,
+                _id: PropTypes.string,
+                age: PropTypes.number,
+                pointsCounter: PropTypes.number,
                 positionInRace: PropTypes.number.isRequired,
-                name: PropTypes.string.isRequired,
-                picture: PropTypes.string.isRequired,
-                team: PropTypes.string.isRequired,
+                name: PropTypes.string,
+                picture: PropTypes.string,
+                team: PropTypes.string,
                 race: PropTypes.shape({
-                    name: PropTypes.string.isRequired,
+                    name: PropTypes.string,
                     time: PropTypes.string.isRequired,
-                })
+                }).isRequired
             })
         )
     ).isRequired,

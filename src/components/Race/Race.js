@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { useParams, useHistory, Link } from 'react-router-dom';
-import { numberSuffix, setMedalEmoji, getColorTeam } from '../../shared/commonUtils';
+import { useParams, useHistory } from 'react-router-dom';
 
 import './Race.scss';
+
+import RacePosition from './RacePosition/RacePosition';
 
 const Race = ({ racesResults, fromCarouselIndex }) => {
     const { raceIndex } = useParams();
@@ -34,29 +35,9 @@ const Race = ({ racesResults, fromCarouselIndex }) => {
             <div className="card">
                 <ul className="list-group list-group-flush">
                     {raceInfo &&
-                        raceInfo.map((driver, i) => {
-                            const { positionInRace, name, _id, race, pointsCounter, team } = driver;
-                            const colorTeam = getColorTeam(team);
-                            return (
-                                <Link key={i} className="clickable" to={`/driver/${_id}`}>
-                                    <p className="card-header">{numberSuffix(positionInRace)} Position {setMedalEmoji(positionInRace)}</p>
-                                    <li className="list-group-item">
-                                        <div className="d-flex">
-                                            <div className="col-sm-4">
-                                                <p className="item-black">{name}</p>
-                                                <p className="item-black">{pointsCounter} points</p>
-                                            </div>
-                                            <p className="item-black col-sm-4">
-                                                Team: &nbsp;<span style={{ color: `${colorTeam}` }}>{team}</span>
-                                            </p>
-                                            <p className="item-black col-sm-4" style={{ textAlign: "right" }}>
-                                                Time - &nbsp;<span style={{ color: "rgb(238, 72, 72)" }}>{race.time}</span>
-                                            </p>
-                                        </div>
-                                    </li>
-                                </Link>
-                            );
-                        })
+                        raceInfo.map((driver, i) => (
+                            <RacePosition key={i} driver={driver} />
+                        ))
                     }
                 </ul>
             </div>
@@ -69,14 +50,14 @@ Race.propTypes = {
         PropTypes.arrayOf(
             PropTypes.shape({
                 _id: PropTypes.string.isRequired,
-                age: PropTypes.number.isRequired,
+                age: PropTypes.number,
                 pointsCounter: PropTypes.number.isRequired,
                 positionInRace: PropTypes.number.isRequired,
                 name: PropTypes.string.isRequired,
-                picture: PropTypes.string.isRequired,
+                picture: PropTypes.string,
                 team: PropTypes.string.isRequired,
                 race: PropTypes.shape({
-                    name: PropTypes.string.isRequired,
+                    name: PropTypes.string,
                     time: PropTypes.string.isRequired,
                 })
             })
