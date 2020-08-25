@@ -3,9 +3,13 @@ import React from 'react';
 import './Spinner.scss';
 
 const Spinner = () => (
-    <div className="spinner-centered">
-        <div className="spinner-loader">Loading...</div>
+    <div className="spinner-backdrop">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
     </div>
+
 );
 
 export default Spinner;
