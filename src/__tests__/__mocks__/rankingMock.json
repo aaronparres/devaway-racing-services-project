@@ -1,0 +1,3093 @@
+{
+    "driversRanking": [
+        {
+            "_id": "5f3a3c5f8df3fe2e8c6ae477",
+            "age": 29,
+            "name": "Daniels Manning",
+            "picture": "http://placehold.it/64x64",
+            "team": "CONFRENZY",
+            "counter": 159,
+            "globalPosition": 1
+        },
+        {
+            "_id": "5f3a3c5f4984bd9be6a6f655",
+            "age": 39,
+            "name": "Richards Floyd",
+            "picture": "http://placehold.it/64x64",
+            "team": "VENDBLEND",
+            "counter": 136,
+            "globalPosition": 2
+        },
+        {
+            "_id": "5f3a3c5f0e202f4a527bf502",
+            "age": 27,
+            "name": "Morris Combs",
+            "picture": "http://placehold.it/64x64",
+            "team": "EURON",
+            "counter": 136,
+            "globalPosition": 3
+        },
+        {
+            "_id": "5f3a3c5faa55d5c4ea549ac1",
+            "age": 38,
+            "name": "Padilla Adkins",
+            "picture": "http://placehold.it/64x64",
+            "team": "EURON",
+            "counter": 132,
+            "globalPosition": 4
+        },
+        {
+            "_id": "5f3a3c5f355a5be1fb74076a",
+            "age": 28,
+            "name": "Lilian Levine",
+            "picture": "http://placehold.it/64x64",
+            "team": "UXMOX",
+            "counter": 129,
+            "globalPosition": 5
+        },
+        {
+            "_id": "5f3a3c5f37ce779261434517",
+            "age": 24,
+            "name": "Hillary Leonard",
+            "picture": "http://placehold.it/64x64",
+            "team": "CONFRENZY",
+            "counter": 129,
+            "globalPosition": 6
+        },
+        {
+            "_id": "5f3a3c5f5a4ce67633e028ad",
+            "age": 29,
+            "name": "Debora Sears",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 125,
+            "globalPosition": 7
+        },
+        {
+            "_id": "5f3a3c5f0a5f78c603fc1d14",
+            "age": 30,
+            "name": "Misty Marsh",
+            "picture": "http://placehold.it/64x64",
+            "team": "UXMOX",
+            "counter": 125,
+            "globalPosition": 8
+        },
+        {
+            "_id": "5f3a3c5ff1c5e552442b292d",
+            "age": 29,
+            "name": "Naomi Rutledge",
+            "picture": "http://placehold.it/64x64",
+            "team": "VENDBLEND",
+            "counter": 122,
+            "globalPosition": 9
+        },
+        {
+            "_id": "5f3a3c5f0c713e786503e798",
+            "age": 39,
+            "name": "Howe Gaines",
+            "picture": "http://placehold.it/64x64",
+            "team": "VENDBLEND",
+            "counter": 115,
+            "globalPosition": 10
+        },
+        {
+            "_id": "5f3a3c5f086b43d06ac5a984",
+            "age": 35,
+            "name": "Guerra Rosario",
+            "picture": "http://placehold.it/64x64",
+            "team": "DEVAWAY",
+            "counter": 111,
+            "globalPosition": 11
+        },
+        {
+            "_id": "5f3a3c5f86cbcda872a8f1ed",
+            "age": 24,
+            "name": "Olsen Donaldson",
+            "picture": "http://placehold.it/64x64",
+            "team": "DEVAWAY",
+            "counter": 108,
+            "globalPosition": 12
+        },
+        {
+            "_id": "5f3a3c5fc42b87fc0d6e31a9",
+            "age": 27,
+            "name": "Harmon Mills",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 106,
+            "globalPosition": 13
+        },
+        {
+            "_id": "5f3a3c5f8a23c3e2c85cab74",
+            "age": 21,
+            "name": "Welch Mays",
+            "picture": "http://placehold.it/64x64",
+            "team": "UXMOX",
+            "counter": 103,
+            "globalPosition": 14
+        },
+        {
+            "_id": "5f3a3c5fde8d2bb91cab3352",
+            "age": 31,
+            "name": "Cherie Fitzgerald",
+            "picture": "http://placehold.it/64x64",
+            "team": "EURON",
+            "counter": 103,
+            "globalPosition": 15
+        },
+        {
+            "_id": "5f3a3c5fdc6f6738e4f35dd7",
+            "age": 32,
+            "name": "Reva French",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 102,
+            "globalPosition": 16
+        },
+        {
+            "_id": "5f3a3c5fc4c1a2c2dd9df702",
+            "age": 39,
+            "name": "Jewel Mcdaniel",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 101,
+            "globalPosition": 17
+        },
+        {
+            "_id": "5f3a3c5f65e328c1a1263781",
+            "age": 29,
+            "name": "Anne Johnston",
+            "picture": "http://placehold.it/64x64",
+            "team": "DEVAWAY",
+            "counter": 101,
+            "globalPosition": 18
+        },
+        {
+            "_id": "5f3a3c5f970bc40e21b8ee63",
+            "age": 27,
+            "name": "Lisa Montoya",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 99,
+            "globalPosition": 19
+        },
+        {
+            "_id": "5f3a3c5f876488cda4de309a",
+            "age": 32,
+            "name": "Stanton Ayala",
+            "picture": "http://placehold.it/64x64",
+            "team": "CONFRENZY",
+            "counter": 97,
+            "globalPosition": 20
+        },
+        {
+            "_id": "5f3a3c5f8bd0087dc1b70b77",
+            "age": 39,
+            "name": "Gilda Lindsay",
+            "picture": "http://placehold.it/64x64",
+            "team": "UXMOX",
+            "counter": 96,
+            "globalPosition": 21
+        },
+        {
+            "_id": "5f3a3c5f2744fa89349fe0f3",
+            "age": 34,
+            "name": "Nguyen Fletcher",
+            "picture": "http://placehold.it/64x64",
+            "team": "GENESYNK",
+            "counter": 95,
+            "globalPosition": 22
+        }
+    ],
+    "races": [
+        [
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:0:57.037"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:4:42.549"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:8:15.559"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:10:20.58"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:11:39.515"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:16:52.691"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:16:53.224"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:19:38.374"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:21:48.956"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:22:53.242"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:26:39.47"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:38:45.622"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:39:54.655"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:44:36.643"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:46:20.667"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:46:21.421"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:47:3.23"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:47:32.432"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:48:28.477"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:48:32.99"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:53:0.702"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 0",
+                    "time": "1:53:36.228"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:0:56.521"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:1:41.043"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:8:11.491"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:11:14.969"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:15:9.451"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:17:24.312"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:19:21.263"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:20:32.393"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:25:48.31"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:26:8.059"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:28:42.037"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:28:54.578"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:31:32.533"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:37:16.852"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:40:12.872"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:43:5.956"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:50:21.71"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:52:42.372"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:53:19.849"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:53:44.181"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:54:8.187"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 1",
+                    "time": "1:59:58.061"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:0:26.598"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:1:5.747"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:4:55.952"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:5:18.992"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:7:36.766"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:16:58.378"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:22:29.376"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:22:57.229"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:23:11.046"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:26:56.186"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:27:19.038"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:27:27.411"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:35:38.871"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:40:5.387"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:44:7.808"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:46:46.861"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:50:5.416"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:50:37.69"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:51:25.667"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:53:9.793"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:53:24.687"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 2",
+                    "time": "1:59:9.399"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:0:6.003"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:0:15.169"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:4:40.618"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:8:31.728"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:10:34.491"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:21:1.485"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:28:49.392"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:32:43.108"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:33:33.531"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:34:18.34"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:35:16.146"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:38:10.498"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:40:54.377"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:41:4.32"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:44:13.98"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:44:18.84"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:47:10.399"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:47:55.459"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:48:56.726"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:51:15.265"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:54:50.18"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 3",
+                    "time": "1:58:26.847"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:6:38.885"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:9:53.404"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:11:35.705"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:15:15.002"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:16:2.04"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:16:48.487"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:17:8.218"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:21:5.428"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:30:28.754"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:32:50.154"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:41:49.539"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:42:3.761"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:43:28.734"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:46:58.467"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:47:18.89"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:47:42.841"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:49:31.585"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:51:21.313"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:51:45.103"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:53:38.533"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:59:9.568"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 4",
+                    "time": "1:59:43.968"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:1:52.361"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:11:2.444"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:12:1.19"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:13:14.073"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:13:42.517"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:21:51.764"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:23:48.083"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:25:17.811"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:26:18.202"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:26:42.32"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:27:11.601"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:31:27.167"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:35:58.714"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:38:20.841"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:44:16.158"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:50:30.417"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:50:42.074"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:51:22.663"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:51:24.73"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:57:46.918"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:59:19.861"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 5",
+                    "time": "1:59:42.241"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:2:8.072"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:4:0.075"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:6:0.916"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:9:2.596"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:12:47.641"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:12:57.672"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:15:58.031"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:16:19.976"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:20:27.344"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:22:24.379"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:22:29.818"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:30:14.658"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:30:35.122"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:41:58.781"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:42:55.71"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:46:33.387"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:48:18.026"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:48:19.814"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:54:33.324"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:55:43.729"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:56:48.602"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 6",
+                    "time": "1:59:49.156"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:4:24.429"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:6:13.931"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:8:10.042"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:15:45.267"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:17:25.795"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:18:49.836"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:22:9.316"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:26:54.026"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:28:39.612"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:29:41.505"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:36:18.023"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:38:16.095"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:48:58.123"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:49:1.957"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:49:20.073"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:52:40.457"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:55:3.198"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:55:48.879"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:55:49.791"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:55:52.599"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:57:54.609"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 7",
+                    "time": "1:58:10.066"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:2:42.528"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:10:34.986"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:14:15.846"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:18:17.738"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:19:46.733"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:23:2.596"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:26:36.246"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:28:6.268"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:29:4.4"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:31:21.812"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:34:55.445"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:36:56.224"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:47:46.692"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:47:52.109"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:48:25.087"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:50:46.778"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:53:21.555"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:54:32.003"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:54:42.966"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:56:0.979"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:56:31.087"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 8",
+                    "time": "1:56:35.634"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ],
+        [
+            {
+                "_id": "5f3a3c5f37ce779261434517",
+                "age": 24,
+                "name": "Hillary Leonard",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:2:21.754"
+                },
+                "pointsCounter": 22,
+                "positionInRace": 1
+            },
+            {
+                "_id": "5f3a3c5f8a23c3e2c85cab74",
+                "age": 21,
+                "name": "Welch Mays",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:10:57.173"
+                },
+                "pointsCounter": 21,
+                "positionInRace": 2
+            },
+            {
+                "_id": "5f3a3c5f0c713e786503e798",
+                "age": 39,
+                "name": "Howe Gaines",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:11:36.368"
+                },
+                "pointsCounter": 20,
+                "positionInRace": 3
+            },
+            {
+                "_id": "5f3a3c5f5a4ce67633e028ad",
+                "age": 29,
+                "name": "Debora Sears",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:22:26.748"
+                },
+                "pointsCounter": 19,
+                "positionInRace": 4
+            },
+            {
+                "_id": "5f3a3c5faa55d5c4ea549ac1",
+                "age": 38,
+                "name": "Padilla Adkins",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:23:38.271"
+                },
+                "pointsCounter": 18,
+                "positionInRace": 5
+            },
+            {
+                "_id": "5f3a3c5f8df3fe2e8c6ae477",
+                "age": 29,
+                "name": "Daniels Manning",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:24:7.128"
+                },
+                "pointsCounter": 17,
+                "positionInRace": 6
+            },
+            {
+                "_id": "5f3a3c5fdc6f6738e4f35dd7",
+                "age": 32,
+                "name": "Reva French",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:29:18.093"
+                },
+                "pointsCounter": 16,
+                "positionInRace": 7
+            },
+            {
+                "_id": "5f3a3c5fde8d2bb91cab3352",
+                "age": 31,
+                "name": "Cherie Fitzgerald",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:31:15.369"
+                },
+                "pointsCounter": 15,
+                "positionInRace": 8
+            },
+            {
+                "_id": "5f3a3c5ff1c5e552442b292d",
+                "age": 29,
+                "name": "Naomi Rutledge",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:32:52.749"
+                },
+                "pointsCounter": 14,
+                "positionInRace": 9
+            },
+            {
+                "_id": "5f3a3c5fc4c1a2c2dd9df702",
+                "age": 39,
+                "name": "Jewel Mcdaniel",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:37:35.128"
+                },
+                "pointsCounter": 13,
+                "positionInRace": 10
+            },
+            {
+                "_id": "5f3a3c5f355a5be1fb74076a",
+                "age": 28,
+                "name": "Lilian Levine",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:38:32.305"
+                },
+                "pointsCounter": 12,
+                "positionInRace": 11
+            },
+            {
+                "_id": "5f3a3c5f0e202f4a527bf502",
+                "age": 27,
+                "name": "Morris Combs",
+                "picture": "http://placehold.it/64x64",
+                "team": "EURON",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:39:5.08"
+                },
+                "pointsCounter": 11,
+                "positionInRace": 12
+            },
+            {
+                "_id": "5f3a3c5f0a5f78c603fc1d14",
+                "age": 30,
+                "name": "Misty Marsh",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:40:17.202"
+                },
+                "pointsCounter": 10,
+                "positionInRace": 13
+            },
+            {
+                "_id": "5f3a3c5f970bc40e21b8ee63",
+                "age": 27,
+                "name": "Lisa Montoya",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:40:52.086"
+                },
+                "pointsCounter": 9,
+                "positionInRace": 14
+            },
+            {
+                "_id": "5f3a3c5f2744fa89349fe0f3",
+                "age": 34,
+                "name": "Nguyen Fletcher",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:45:37.349"
+                },
+                "pointsCounter": 8,
+                "positionInRace": 15
+            },
+            {
+                "_id": "5f3a3c5f65e328c1a1263781",
+                "age": 29,
+                "name": "Anne Johnston",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:47:46.822"
+                },
+                "pointsCounter": 7,
+                "positionInRace": 16
+            },
+            {
+                "_id": "5f3a3c5f876488cda4de309a",
+                "age": 32,
+                "name": "Stanton Ayala",
+                "picture": "http://placehold.it/64x64",
+                "team": "CONFRENZY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:48:26.514"
+                },
+                "pointsCounter": 6,
+                "positionInRace": 17
+            },
+            {
+                "_id": "5f3a3c5f86cbcda872a8f1ed",
+                "age": 24,
+                "name": "Olsen Donaldson",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:52:38.604"
+                },
+                "pointsCounter": 5,
+                "positionInRace": 18
+            },
+            {
+                "_id": "5f3a3c5f8bd0087dc1b70b77",
+                "age": 39,
+                "name": "Gilda Lindsay",
+                "picture": "http://placehold.it/64x64",
+                "team": "UXMOX",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:56:5.192"
+                },
+                "pointsCounter": 4,
+                "positionInRace": 19
+            },
+            {
+                "_id": "5f3a3c5f4984bd9be6a6f655",
+                "age": 39,
+                "name": "Richards Floyd",
+                "picture": "http://placehold.it/64x64",
+                "team": "VENDBLEND",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:57:56.461"
+                },
+                "pointsCounter": 3,
+                "positionInRace": 20
+            },
+            {
+                "_id": "5f3a3c5fc42b87fc0d6e31a9",
+                "age": 27,
+                "name": "Harmon Mills",
+                "picture": "http://placehold.it/64x64",
+                "team": "GENESYNK",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:58:25.125"
+                },
+                "pointsCounter": 2,
+                "positionInRace": 21
+            },
+            {
+                "_id": "5f3a3c5f086b43d06ac5a984",
+                "age": 35,
+                "name": "Guerra Rosario",
+                "picture": "http://placehold.it/64x64",
+                "team": "DEVAWAY",
+                "race": {
+                    "name": "Race 9",
+                    "time": "1:58:35.652"
+                },
+                "pointsCounter": 1,
+                "positionInRace": 22
+            }
+        ]
+    ],
+    "driverInfo": {
+        "_id": "5f3a3c5f8df3fe2e8c6ae477",
+        "age": 29,
+        "name": "Daniels Manning",
+        "picture": "http://placehold.it/64x64",
+        "team": "CONFRENZY",
+        "counter": 159,
+        "globalPosition": 1
+    }
+}
